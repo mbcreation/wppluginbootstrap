@@ -88,7 +88,7 @@ class MBC_{UCFIRST_PLUGIN_SLUG_NO_SPACE}{
 		public function plugin_activation()
 		{
         	
-        	update_option( self::$options_name , $this->default_options );
+        	update_option( self::$options_name , self::$default_options );
 
 					
 		} // install
